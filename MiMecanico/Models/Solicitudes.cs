@@ -6,6 +6,8 @@ namespace MiMecanico.Models
     {
         [Key]
         public int SolicitudId { get; set; }
+        public int ClienteId { get; set; }
+        public int MecanicoId { get; set; }
         public string? NombreMecanico { get; set; }
         public string? Area { get; set; }
         public string? NombreCliente { get; set; }

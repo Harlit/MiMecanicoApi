@@ -24,5 +24,8 @@ namespace MiMecanico.Data
 
 
         public DbSet<MiMecanico.Models.Solicitudes> Solicitudes { get; set; } = default!;
+
+
+        public DbSet<MiMecanico.Models.Vehiculos> Vehiculos { get; set; } = default!;
     }
 }
