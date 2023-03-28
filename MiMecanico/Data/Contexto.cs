@@ -10,8 +10,11 @@ namespace MiMecanico.Data
 
         }
 
-        public DbSet<Mecanicos> Mecanicos => Set<Mecanicos>();
-        
+        public DbSet <Mecanicos> Mecanicos => Set<Mecanicos>();
+        public DbSet <Clientes> Clientes => Set<Clientes>();
+        public DbSet <Reportes> Reportes => Set<Reportes>();
+        public DbSet<CitaTaller> CitaTallers => Set<CitaTaller>();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

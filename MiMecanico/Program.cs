@@ -1,5 +1,5 @@
-using MiMecanico.Data;
 using Microsoft.EntityFrameworkCore;
+using MiMecanico.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

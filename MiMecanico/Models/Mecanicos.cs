@@ -8,7 +8,7 @@ namespace MiMecanico.Models
         public int MecanicoId { get; set; }
         public string? Nombre { get; set; }
         public string? Area { get; set; }
-        public Boolean Disponible { get; set; }
+        public string? Disponible { get; set; }
         
     }
 }
