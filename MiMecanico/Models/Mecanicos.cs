@@ -9,6 +9,8 @@ namespace MiMecanico.Models
         public string? Nombre { get; set; }
         public string? Area { get; set; }
         public string? Disponible { get; set; }
+
+        public string? TelefonoMecanico { get; set; }
         
     }
 }

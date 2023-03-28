@@ -10,8 +10,6 @@ namespace MiMecanico.Models
         public string? Nombre { get; set; }
         public string? Direccion { get; set; }
         public DateTime Fecha { get; set; } = DateAndTime.Now;
-        public string? ProblemaVehiculo { get; set; }
-        public string? MarcaVehiculo { set; get; }
-        public DateTime AnioVehichulo { set; get; }
+        public string? TelefonoCliente { set; get; }
     }
 }

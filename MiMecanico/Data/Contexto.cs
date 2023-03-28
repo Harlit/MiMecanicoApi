@@ -21,5 +21,8 @@ namespace MiMecanico.Data
             base.OnModelCreating(modelBuilder);
             
         }
+
+
+        public DbSet<MiMecanico.Models.Solicitudes> Solicitudes { get; set; } = default!;
     }
 }

@@ -8,5 +8,6 @@ namespace MiMecanico.Models
         public int ReporteId { get; set; }
         public string? NombreMecanico { get; set; }
         public string? Estados { get; set; }
+        public DateTime Fecha { get; set; } = DateTime.Now;
     }
 }
